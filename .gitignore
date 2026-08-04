@@ -1,0 +1,18 @@
+#files that shouldn't be checked in
+
+.env
+.env.*
+*.env
+
+*secret*
+*.agekey
+
+*.pem
+*.key
+*.pub
+*.p12
+*.pfx
+*.pkcs12
+id_rsa
+id_ecdsa
+id_ed25519
