@@ -12,9 +12,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./apps/staging  #added by Anu based on Mischa's file
-  prune: true           #added by Anu based on Mischa's file
-  decryption:           #added by Anu for sops encryption/decryption
+  decryption:
     provider: sops
     secretRef:
       name: sops-age
