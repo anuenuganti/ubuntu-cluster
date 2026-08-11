@@ -38,7 +38,7 @@ spec:
         hosts:
           - grs.anuenuganti.net
 
-        #tls:
-        #  - secretName: grafana-tls-secret
-        #   hosts:
-        #      - grs.anuenuganti.net
+        tls:
+          - secretName: grafana-tls-secret
+            hosts:
+              - grs.anuenuganti.net

@@ -4,10 +4,9 @@
 .env.*
 *.env
 
-*.secret*
 *.agekey
-
 *.pem
+*.crt
 *.key
 *.pub
 *.p12
