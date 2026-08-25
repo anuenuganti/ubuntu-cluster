@@ -40,7 +40,7 @@ spec:
               name: audiobookshelf-audiobooks
 
       restartPolicy: Always
-
+ 
       volumes:
         - name: audiobookshelf-config
           persistentVolumeClaim:
