@@ -1,5 +1,6 @@
-#files that shouldn't be checked in
+#files/folders that shouldn't be checked in
 
+secrets
 .env
 .env.*
 *.env
